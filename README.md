@@ -1,13 +1,19 @@
 1.CVS,SVN都是集中式版本控制系统,Git是分布式版本控制系统
+
 集中式版本控制系统:
 	版本库是集中存放在中央服务器的,要先从服务器上获得code到自己的电脑上才行.然后push到服务器上.
 	需要联网工作
+
 分布式版本控制系统:
 	不需要联网,互相推送查看修改历程.安全系数极高.可以使用一台主机作为交换的桥梁
 //git安装
+
 sudo apt-get install git
+
 //git设置本机属性,名称及email
+
 git config --global user.name "~~~"
+
 git config --global user.email "~~~"
 
 //版本库的创建
